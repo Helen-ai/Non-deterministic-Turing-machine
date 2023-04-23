@@ -1,4 +1,3 @@
-% Homework 1 Solution by Helen Husca
 
 %node=[LeftTapeReverse,RightTape,CurrentState]
 
@@ -65,26 +64,5 @@ wl([[q0,a,b-k,q1],[q3,b,b-k,q4]]).
 hl([[q0,b-k]]).
 
 
-/** <examples>
-?- nTm([],[],[],[[q0,X]],[b-k,i,n,b-k,p,u,t,b-k,b-k],Out).
 
-?- nTm([[q1,1,q2],[q1,0,q2],[q1,b-k,q2]],[],
-   [[q0,0,1,q1], [q2,0,b-k,q1]],
-   [[q1,b-k]],
-   [0,0,0,0,0],
-   Out).
-
-?- nTm([[mr1,h,we],[mr1,e,wl],[mr1,l,wp],[mr1,p,hbk],
-   [mr,l,wo],[mr,o,wo],[mp,o,wp]],
-   [[q0,0,lbk],[lbk,b-k,lbk]],
-   [[q0,0,h,mr1],[we,1,e,mr1],[wl,0,l,mr1],[wp,1,p,mr1],
-   [q0,0,l,mr],[wo,1,o,mr],[wo,0,o,mp]],
-   [[hbk,b-k]],
-   [0,1,0,1],
-   Output).  
-
-?- ab([a,a,a,b,b,b]).
-?- ab([a,b,b]).
-
-*/
 
