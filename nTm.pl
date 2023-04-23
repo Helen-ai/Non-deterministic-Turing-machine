@@ -1,4 +1,3 @@
-
 %node=[LeftTapeReverse,RightTape,CurrentState]
 
 nTm(MR,ML,WL,HL,In,Out) :- 
@@ -62,7 +61,3 @@ mr([[q1,b-k,q2],[q2,a,q2],[q2,b,q2],[q5,b-k,q0]]).
 ml([[q2,b-k,q3],[q4,b-k,q5],[q5,a,q5],[q5,b,q5]]).
 wl([[q0,a,b-k,q1],[q3,b,b-k,q4]]).
 hl([[q0,b-k]]).
-
-
-
-
